@@ -15,6 +15,7 @@ module.exports = merge(common, {
     open: true,
     hot: true
   },
+
   plugins: [
     new webpack.HotModuleReplacementPlugin() // Test if it works for css with form element
   ],

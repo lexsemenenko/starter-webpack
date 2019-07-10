@@ -1,6 +1,4 @@
+import './less/main.less';
 
-import './first.js';
-import './second.js';
-import './third.js';
-
-const name = "Lex";
+var Storm = function() {}
+Storm.prototype.precip = 'rain';
